@@ -1,22 +1,22 @@
-![HeroCaptura](img/blogCaptura.png)
+[<img src="img/blogCaptura.png">](https://blogcafemv.netlify.app/)
 
 # Proyecto Blog de cafe
 
-Este proyecto *BlogDeCafe* fue realizado con la finalidad de poner en practica conceptos básicos en la elaboración de sitios Web, usando solo de HTML y CSS.
+This project *BlogDeCafe* was made with the purpose of putting into practice basic concepts in the development of Web sites, using only HTML and CSS.
 
 
 
-**No es un blog real** por lo tanto la información que aqui se suministra puede que no sea precisa.
+**This is not a real blog**, therefore the information provided here may not be accurate.
 
-## Enlaces a blogs reales
+## Links to real blogs
 
 
-La información de relleno que se utilizó para este proyecto se puede encontrar en los siguientes enlaces:
-
+The filler information that was used for this project can be found at the following links:
 
 * [Philips](https://www.philips.cl/c-m-ho/cafe/cafe-101/la-cosecha-y-los-tipos-de-granos-de-cafe)
 * [Cafemalist](https://cafemalist.com/)
 * [Directoalpaladar](https://www.directoalpaladar.com/)
+
 
 
 
