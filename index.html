@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafé</title>
+    <meta name="description" content="Página web de blog de café">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="nav">
+                    <a href="about.html" class="nav__link">Nosotros</a>
+                    <a href="courses.html" class="nav__link">Cursos</a>
+                    <a href="contact.html" class="nav__link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__text">
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
+            <p class="no-margin w-95">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy"  srcset="img/granos.webp" type="image/webp">
+                        <img loading="lazy" src="img/granos.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Tipos de Grano de Café</h4>
+                    <p>Existen dos clases de granos de café: Arábica y Robusta. La Arábica es la variedad más popular y tiene un sutil sabor aromático; la Robusta contiene más cafeína. La mayoría de las combinaciones de café contienen una mezcla de ambas.</p>
+                    <a href="entry-types.html" class="button button--primary">Leer Entrada...</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">3 Deliciosas Recetas de Café</h4>
+                    <p>Mucha gente es incapaz de empezar el día sin un buen café por la mañana, pero los auténticos amantes de esta bebida adoran tanto su sabor que les gusta en todo tipo de preparaciones. Por ellos hemos preparado esta recolección de recetas con café para los más cafeteros.</p>
+                    <a href="entry-recipes.html" class="button button--primary">Leer Entrada...</a>
+                </div>
+            </article>
+
+            <article class="entry">
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy"  srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagen blog"> 
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin">Beneficios del Café</h4>
+                    <p>La mayoría de los estudios concuerdan en que un consumo moderado de café, entre tres y cuatro tazas al día, es beneficioso para la salud, ya que aporta nutrientes y protege al organismo contra ciertas enfermedades.</p>
+                    <a href="entry-benefits.html" class="button button--primary">Leer Entrada...</a>
+                </div>
+            </article>
+        </main>
+        <aside>
+            <h3>Nuestros Cursos y Talleres</h3>
+
+            <ul class="courses no-padding">
+                <li class="widget-course">
+                    <h4 class="no-margin">Técnicas de Extracción de Café</h4>
+                    <p class="widget-course__label">Precio: 
+                        <span class="widget-course__info">Gratis</span>
+                    </p>
+                    <p class="widget-course__label">Cupo: 
+                        <span class="widget-course__info">20</span>
+                    </p>
+                    <a href="courses.html" class="button button--secondary">Más Información sobre nuestros cursos</a>
+                </li>
+
+                <li class="widget-course">
+                    <h4 class="no-margin">4 Recetas de Café para Principiantes</h4>
+                    <p class="widget-course__label">Precio: 
+                        <span class="widget-course__info">Gratis</span>
+                    </p>
+                    <p class="widget-course__label">Cupo: 
+                        <span class="widget-course__info">20</span>
+                    </p>
+                    <a href="courses.html" class="button button--secondary">Más Información sobre nuestros cursos</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__name no-margin text-center">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="nav">
+                    <a href="about.html" class="nav__link">Nosotros</a>
+                    <a href="courses.html" class="nav__link">Cursos</a>
+                    <a href="courses.html" class="nav__link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
